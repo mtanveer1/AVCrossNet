@@ -17,4 +17,5 @@ This section lists the official sources and references for all state-of-the-art 
 |--------|--------------------|--------------|
 | AVGEN | https://github.com/sp-uhh/avgen | Official implementation of AVGEN for audio-visual generation and enhancement. |
 | AVDiffuSS | https://github.com/kaistmm/AVDiffuSS | Official implementation of AVDiffuSS: Audio-Visual Diffusion Speech Separation model. |
+| Denoiser (Demucs) | https://github.com/facebookresearch/denoiser | Official implementation of DEMUCS based Denoiser by Meta |
 

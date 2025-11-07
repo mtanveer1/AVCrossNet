@@ -1,0 +1,23 @@
+
+root: "D:/Rupal/AVSE/Extended_Work/FINAL_NEW/updated_stuff-20241009T100236Z-002/updated_stuff" # EDIT_THIS 
+dataset: eval
+target: "D:/Rupal/AVSE/Extended_Work/Challenge_test_data/AVSE_EvalSet/targets" # path containig the clean target files
+target_suffix: '_target' # format of target files: SXXXXX_target.wav
+enhanced: "D:/Rupal/AVSE/Extended_Work/FINAL_NEW/updated_stuff-20241009T100236Z-002/updated_stuff/preds_newe7"
+enhanced_suffix: '' # format of enhanced files: SXXXXX_mixed.wav -- EDIT_THIS
+scenes_names: ${root}/metadata/scenes.${dataset}.json
+metrics_results: objective_evaluation/ # output directory where results will be written
+
+fs: 16000
+
+objective_metrics:
+  fs: ${fs}
+  mode: 'wb'
+
+defaults:
+  - override hydra/job_logging: disabled
+
+hydra:
+  output_subdir: Null
+  run:
+    dir: .

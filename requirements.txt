@@ -1,0 +1,17 @@
+decord==0.6.0
+numpy==1.24.0
+opencv_contrib_python==4.7.0.68
+opencv_python==4.7.0.68
+opencv_python_headless==4.7.0.68
+pytorch_lightning
+scipy
+SoundFile==0.10.3.post1
+torch
+torchaudio
+torchvision
+tqdm
+librosa
+einops
+numpy==1.26.0
+huggingface_hub
+timm

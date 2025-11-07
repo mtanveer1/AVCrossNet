@@ -32,13 +32,13 @@ optional arguments:
 
 ### Test
 ```bash
-usage: test.py [-h] --ckpt_path ./model.pth --save_root ./enhanced --model_uid avse [--dev_set False] [--eval_set True] [--cpu True]
+usage: test.py [-h] --ckpt_path ./model.pth --save_root ./enhanced --model_uid m1 [--dev_set False] [--eval_set True] [--cpu True]
 
 # Model evaluation - dev set
-python test.py --ckpt_path pre_model\avse2_baseline.ckpt --save_root enhanced --model_uid avse --dev_set True --eval_set False --cpu False
+python test.py --ckpt_path pre_model\baseline.ckpt --save_root enhanced --model_uid avse --dev_set True --eval_set False --cpu False
 
 # Model evaluation - val set
-python test.py --ckpt_path pre_model\avse2_baseline.ckpt --save_root enhanced --model_uid avse --dev_set False --eval_set True --cpu False
+python test.py --ckpt_path pre_model\baseline.ckpt --save_root enhanced --model_uid avse --dev_set False --eval_set True --cpu False
 
 
 optional arguments:
@@ -55,6 +55,8 @@ optional arguments:
 ```bash  
 python objective_evaluation.py
 ```
+(Modify config.yaml to include path of ground truths, enhanced and filename prefix)
 
 ### Misc
 SOTA.md contains references to all state of the art papers implemented in the paper.
+

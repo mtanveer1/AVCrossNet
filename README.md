@@ -58,6 +58,7 @@ python objective_evaluation.py
 (Modify config.yaml to include path of ground truths, enhanced and filename prefix)
 
 ### Misc
-SOTA.md contains references to all state of the art papers implemented in the paper.
-compute_snr_metrics.py will compute metrics across different ranges. It requires the scene-wise metrics, and snr data of scenes as input. Further detail is given within the script's main function.
+- SOTA.md contains references to all state of the art papers implemented in the paper.
+- compute_snr_metrics.py will compute metrics across different ranges. It requires the scene-wise metrics, and snr data of scenes as input. Further detail is given within the script's main function.
+
 
